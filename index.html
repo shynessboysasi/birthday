@@ -72,7 +72,7 @@
 </head>
 <body>
 
-  <!-- Background music -->
+  <!-- ✅ Your Song -->
   <audio id="bgMusic" src="Heeriye Arjith singh 320 kbps.mp3" autoplay loop></audio>
   <button id="musicBtn" onclick="toggleMusic()">⏸️</button>
 
@@ -170,7 +170,7 @@ Have an amazing day—you deserve it! 🙌
       document.getElementById(showId).classList.remove("hidden");
     }
 
-    // Try to resume autoplay if blocked
+    // Resume autoplay if blocked
     document.addEventListener('click', () => music.play(), { once: true });
   </script>
 
